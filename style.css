@@ -1,0 +1,696 @@
+@font-face{
+	font-family:'head_font';
+	src:url('fonts/Salmela.ttf');
+}
+@font-face{
+	font-family:'feature_font';
+	src:url('fonts/Champagne & Limousines Bold.ttf');	
+}
+@font-face{
+	font-family:'banner_font';
+	src:url('fonts/boldfont.ttf');	
+}
+@font-face{
+	font-family:'italic_font';
+	src:url('fonts/Courgette-Regular.ttf');	
+}
+/*================carousel===================*/
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+}
+.container-fluid {
+overflow-x: hidden !important;
+padding-right: 0!important;
+padding-left:0!important;
+margin-right: auto !important;
+margin-left: auto !important;
+}
+
+.logo_style{
+	font-weight:bold;
+	font-size:26px;
+	color:#83A913 !important;
+	
+}
+.logo_style:hover{
+	color:#83A913;
+	
+}
+/*===================top nav style=================*/
+.top_navstyle{
+	background:#8CB70E;
+	border:none;
+	border-radius:0;
+}
+.top_nav_para {
+	color:#fff;
+	margin:15px 20px 0 0;
+}
+.top_navstyle ul{
+	color:#fff !important;
+}
+
+.top_navstyle ul li a{
+	color:#fff !important;
+	font-size:14px!important;
+}
+
+.top_test{
+	color:#fff !important;
+}
+/*===============navigation==================*/
+.navstyle{
+	background:#fff;
+	border:none;
+
+	
+}
+
+.mynavigation ul {
+	
+}
+.mynavigation ul li a{
+	color:#000 !important;
+	font-size:16px;
+	
+}
+.mynavigation ul li a:hover{
+	background:#8CB70E !important;
+	color:#000 !important;
+}
+.mynavigation li a:active{
+	background:#8CB70E !important;
+	color:#000 !important;
+}
+/*=================banner part=====================*/
+
+.baner_head{
+	font-size:70px;
+	color:#3C4A13;
+	font-weight:bold;
+	font-family: 'Blenda Script';
+	margin:20px 0 0 0;
+	top:34%;
+	left:10%;
+	position:absolute;
+
+
+}
+.col_no_padding{
+	padding-left:0 !important;
+	padding-right:0 !important;
+}
+.banner_text{
+	font-size:40px;
+	color:#83A913;
+	margin: 10px 0 0 0;
+	font-family:'Calibri';
+	font-weight:bold;	
+	top:54%;
+	left:10%;
+	position:absolute;
+	
+}
+.Add_cart{
+	position:absolute;
+	top:70%;
+	left:10%;
+	color:#fff;
+	
+	border-radius:0;
+	border:none;
+	
+	width:200px;
+	height:50px;
+	
+	
+	background:#8CB70E;
+	padding:15px 40px 15px 40px;
+	font-size:16px;
+	
+}
+.font_icon{
+	font-size:60px;
+	top:50%;
+	color:#FFF;
+
+}
+.banner_fluid {
+   padding-left:0;
+   padding-right:0;
+}
+.carousel-control {
+position: absolute;
+top: 50%; /* pushes the icon in the middle of the height */
+z-index: 5;
+display: inline-block;
+}
+/*==================welcome part================*/
+.welcome_head{
+	font-size:50px;
+	color:#7FA903;
+	text-align:center;
+	margin:100px 0 40px 0;
+	font-family:'head_font';
+	
+}
+.number_text{
+	
+	font-size:50px;
+	color:#69890A;
+	text-align:center;
+	font-family:'italic_font';
+	font-weight:bold;
+}
+.welcome_best{
+	font-size:20px;
+	color:#8A8A8A;
+	text-align:center;
+	font-family:'italic_font';
+	font-weight:bold;
+}
+.welcome_para{
+	font-size:14px;
+	color:#5F5F5F;
+	text-align:center;
+	margin:0 0 20px 0;
+	
+}
+/*====================offer part=====================*/
+.my_col{
+	padding-right:0;
+	padding-left:0;
+}
+.image_offer{
+	margin:50px 0 80px 0;
+}
+.container1{
+	position:relative;
+}
+.overlay{
+	position:absolute;
+	top:50%;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	width:100%;
+	opacity:1;
+	transition: .5s ease;
+}
+
+
+.farmer_image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+}
+
+.container1:hover .overlay{
+	opacity:1;
+}
+
+.container1:hover .farmer_image {
+	
+	filter:grayscale(100%);
+	background:#000;	
+}
+
+.container1:hover .btn_class {
+	display:inline;
+}
+
+.btn_class{	
+	background:#F0CC03;
+	font-size:16px;
+	border-radius:0;
+	border:none;
+	padding:16px 32px;
+	opacity:1;
+	display:none;
+	transition: 0.5s;
+}
+/*=====================products part================*/
+.products_part{
+	width:200px;
+	height:150px;
+	margin:0 auto!important;
+}
+.organic_small_text{
+	color:#83BB1A;
+	font-size:12px;
+	line-height:10px;
+}
+.organic_text{
+	color:#767373;
+	font-size:18px;
+	
+	line-height:13px;
+
+}
+.organic_price{
+	color:#546D25;
+	font-size:14px;
+	font-weight:bold;
+
+}
+.div_hover {
+	text-align:center;
+	cursor: pointer;
+	
+}
+
+.button_hover{
+	display:none;
+    transition: transform .3s ease-out;
+}
+
+.banana_hover:hover .button_hover {
+	 display:block;	 
+	 transform: translate(0, -5px);
+	
+ }
+ 
+ .banana_hover:hover .div_hover {
+	 display:none;	 
+ }
+ 
+ .add_cart{
+	 background:#89C324;
+	 border:none;
+	 height:40px;
+	 width:80;
+	
+	 
+ }
+
+
+
+
+
+/*==============small banner==============*/
+.small_banner{
+	background:url('img/various-fresh-vegetables-herbs-white-background-healthy-eating-concept_51524-2574.jpg') repeat-x;
+	height:450px;
+	margin:50px 0 0 0;
+}
+.read_more_new{
+	background:#89C813;
+	width:200px;
+	height:50px;
+	border:none;
+	border-radius:0;
+	  transition: ease .6s;
+	 
+}
+.read_more_new:hover{
+	background:#00B231;
+	
+	  transform: scale(1.2);
+
+}
+.small_banner_text{
+	color:#696969;
+	font-size:16px;
+	font-weight:bold;
+	line-height:17px;
+	text-align:center;
+	margin:-30px 0 30px 0;
+}
+.Fruits_head{
+	font-size:50px;
+	color:#7FA903;
+	text-align:center;
+	margin:70px 0 20px 0;
+	font-family:'head_font';
+	
+}
+/*============left para==============*/
+.left_part{
+	margin:60px 0 30px 0;
+}
+.left_head{
+	color:#81BD2C;
+	font-size:22px;
+	font-weight:bold;
+	line-height:17px;
+	font-family:'italic_font';
+	margin:30px 0 20px 0;
+}
+.right_part{
+	padding:0 0 0 60px;
+}
+/*===============latest part===============*/
+.grey_background{
+	background:#F1F1F1;
+}
+.health_head{
+	
+	color:#5E615C;
+	font-size:18px;
+	font-weight:bold;
+	line-height:17px;
+}
+.latest_img{
+	width:350px;
+}
+.your_health{
+	margin:30px 0 20px 0;
+	background:#6CB307;
+	border:none;
+	border-radius:0;
+	font-size:12px;
+	transition: ease .6s;
+}
+.your_health:hover{
+	background:#353434;
+	transition: ease .6s;
+}
+.oct_text{
+color:#90B905;
+font-size:14px;
+	
+}
+.comments_text{
+color:#909090;
+font-size:14px;
+}
+/*===============testimonial_banner=================*/
+.testimonial_banner{
+	background:url('img/O8RDSC0.jpg') no-repeat;
+	height:500px;
+	margin:20px 0 0 0;
+	padding:50px 50px 0 50px;
+	
+}
+.testimonial{
+	color:#95C210;
+	font-size:50px;
+	font-weight:bold;
+	text-align:center;
+	font-family:'italic_font';
+}
+.testimonial_para{
+	color:#fff;
+	font-size:16px;
+	padding:60px 60px 0 60px;
+	text-align:center;
+}
+.carousel-indicators li { visibility: hidden; }
+.testimonial_name{
+	color:#73B711;
+	font-size:16px;
+	padding:10px 60px 0 60px;
+	text-align:center;
+	font-weight:bold;
+}
+/*=================Subscribe_head=================*/
+.Subscribe_head{
+	color:#595958;
+	font-size:40px;
+	font-weight:bold;
+	text-align:center;
+	margin:150px 0 20px 0;
+	font-family:'italic_font';
+}
+.bg_color{
+	background:#7CA503;
+	color:#fff;
+	width:150px;
+	height:50px;
+	font-size:16px;
+	margin:50px 0 0 0;
+	border-radius:0;
+}
+.input-group{
+	width:100%;
+	margin:20px 0 60px 0;
+}
+.my_form_control{
+	height:50px;
+}
+.subscribe_part{
+	
+}
+/*===================footer==============*/
+.my_footer{
+	margin:150px 0 0 0;
+}
+.footer_head{
+	font-size:22px;
+	color:#4C4B4B;
+	font-family:'italic_font';
+	font-weight:bold;
+	
+}
+.footer_nav ul li{
+	padding:0 0 12px 0;
+}
+.footer_nav ul li a{
+	font-size:15px;
+	color:#848181;
+	text-align:left!important;
+	text-decoration:none;
+	
+	
+}
+.footer_para{
+	font-size:14px;
+	color:#848181;
+
+}
+.footer_icon{
+	width:18px;
+	margin:0 10px 0 0;
+}
+/*====================media quarie=====================*/
+@media screen and (max-width: 450px) {
+/*===================top nav style=================*/
+.top_navstyle{
+	background:#8CB70E;
+	border:none;
+	border-radius:0;
+}
+.top_nav_para {
+	color:#fff;
+	margin:15px 20px 0 30px;
+}
+.top_navstyle ul li{
+	color:#fff !important;
+	text-align:center;
+	padding:0 10px 0 5px;
+	display: inline-block;
+}
+
+.top_navstyle ul li a{
+	color:#fff !important;
+	font-size:14px!important;
+	
+	
+}
+
+.top_test{
+	color:#fff !important;
+}
+/*=================banner part=====================*/
+.banner{
+	background:url('img/2222.jpg') no-repeat;
+	height:250px;
+	
+	
+}
+.baner_head{
+	font-size:50px;
+	color:#ffffff;
+	font-weight:bold;
+	margin:0 0 0 0;
+	padding:20px 20px 0 20px;
+	line-height:60px;
+	position:relative;
+	
+
+}
+.col_no_padding{
+	padding-left:0 !important;
+	padding-right:0 !important;
+}
+.banner_text{
+	font-size:24px;
+	color:#83A913;
+	font-weight:bold;
+	padding:0 0 0 25px;
+	
+	
+	
+}
+.Add_cart{
+	border-radius:0;
+	
+	border:none;
+	background:#8CB70E;
+	padding:15px 40px 15px 40px;
+	font-size:16px;
+	margin:0px 0 0 25px;
+}
+/*==================welcome part================*/
+.welcome_head{
+	font-size:30px;
+	color:#7FA903;
+	text-align:center;
+	margin:40px 0 30px 0;
+	font-family:'head_font';
+	
+}
+.number_text{
+	
+	font-size:30px;
+	color:#69890A;
+	text-align:center;
+	font-family:'italic_font';
+	font-weight:bold;
+}
+.welcome_best{
+	font-size:20px;
+	color:#8A8A8A;
+	text-align:center;
+	font-family:'italic_font';
+	font-weight:bold;
+}
+.welcome_para{
+	font-size:14px;
+	color:#5F5F5F;
+	text-align:center;
+	
+}
+/*====================offer part=====================*/
+.image_offer{
+	margin:50px 0 80px 0;
+}
+.container1{
+	position:relative;
+}
+.overlay{
+	position:absolute;
+	
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	width:100%;
+	opacity:0;
+	transition: .5s ease;
+}
+
+
+.farmer_image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+}
+
+.container1:hover .overlay{
+	opacity:1;
+}
+
+.container1:hover .farmer_image{
+	opacity:0.3;
+}
+
+.btn_class{
+	background:#F0CC03;
+	border-radius:0;
+	border:none;
+	padding:16px 32px;
+	opacity:1;
+}
+
+
+
+/*==============small banner==============*/
+.small_banner{
+	background:url('img/mobile.jpg') repeat-x;
+	height:250px;
+	margin:50px 0 0 0;
+}
+.read_more_new{
+	background:#89C813;
+	width:200px;
+	height:50px;
+	border:none;
+	border-radius:0;
+}
+.small_banner_text{
+	color:#696969;
+	font-size:16px;
+	font-weight:bold;
+	line-height:17px;
+	text-align:center;
+	margin:-30px 0 30px 0;
+}
+/*============left para==============*/
+.left_part{
+	margin:60px 0 30px 0;
+}
+.left_head{
+	color:#81BD2C;
+	font-size:22px;
+	font-weight:bold;
+	line-height:17px;
+	font-family:'italic_font';
+	margin:30px 0 20px 0;
+}
+.right_part{
+	padding:0 0 0 10px;
+}
+/*===============testimonial_banner=================*/
+.testimonial_banner{
+	background:url('img/O8RDSC0.jpg') no-repeat;
+	height:350px;
+	margin:70px 0 0 0;
+	padding:50px 50px 0 50px;
+	
+}
+.testimonial{
+	color:#95C210;
+	font-size:50px;
+	font-weight:bold;
+	text-align:center;
+	font-family:'italic_font';
+}
+.testimonial_para{
+	color:#fff;
+	font-size:16px;
+
+	text-align:center;
+}
+/*=================Subscribe_head=================*/
+.Subscribe_head{
+	color:#595958;
+	font-size:30px;
+	font-weight:bold;
+	text-align:center;
+	margin:20px 0 20px 0;
+	font-family:'italic_font';
+}
+.bg_color{
+	background:#7CA503;
+	color:#fff;
+	font-size:16px;
+	margin:50px 0 0 0;
+}
+.subscribe_part{
+	margin:50px 0 80px 0;
+}
+}/*===================450 end===============*?
+
+
+
+
+
+
+
